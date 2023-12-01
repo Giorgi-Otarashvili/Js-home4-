@@ -76,20 +76,20 @@ console.log(saxelebi);
 //  მაგ. შექმენით ფუნქცია სახელით: numberPower(number, power) და პარამეტრებით: number, power, მაგ. თუ
 //   რიცხვია 5 და ხარისხი 3, მაშინ თქვენმა ფუნქციამ უნდა დააბრუნოს 5*5*5 ანუ 125.
 
-// let number = prompt("შეიყვანე რიცხვი")
-// let power = prompt ("შეიყვანე ხარისხი")
-// let numberPower = (number, power, ) => {
+let number = prompt("შეიყვანე რიცხვი")
+let power = prompt ("შეიყვანე ხარისხი")
+let numberPower = (number, power, ) => {
 
-// if (number && power) {
-//     return number ** power//ეს მგონი არ გვისწავლია სანამ არ დავგუგლე ვეწვალე კაიხანი :დ
-// }
-// else {
-//     return "Invalid input. Please enter valid numbers."
-// }
+if (number && power) {
+    return number ** power//ეს მგონი არ გვისწავლია სანამ არ დავგუგლე ვეწვალე კაიხანი :დ
+}
+else {
+    return "Invalid input. Please enter valid numbers."
+}
 
-// }
+}
 
-// document.write(number + " ხარისში " + power + " არის " + (numberPower (number,power)))
+document.write(number + " ხარისში " + power + " არის " + (numberPower (number,power)))
 
 
 // N5 შექმენით ფუნქცია, რომელიც 1-დან 100-მდე რიცხვებში დაიანგარიშებს თუ რომელი
